@@ -10,27 +10,27 @@ const links = [
   {
     title: "Home",
     href: "/",
-    src: "1.jpg",
+    src: "1",
   },
   {
     title: "Shop",
     href: "/shop",
-    src: "2.jpg",
+    src: "2",
   },
   {
     title: "About Us",
     href: "/about",
-    src: "3.jpg",
+    src: "3",
   },
   {
     title: "Lookbook",
     href: "/lookbook",
-    src: "4.jpg",
+    src: "4",
   },
   {
     title: "Contact",
     href: "/contact",
-    src: "5.jpg",
+    src: "5",
   },
 ];
 

@@ -12,7 +12,7 @@ export default function Index({ src, isActive }) {
       className="hidden _1080:block _1080:w-[500px] _1080:h-[450px] _1080:relative"
     >
       <Image
-        src={`/assets/images/${src}`}
+        src={`/assets/images/${src}.jpg`}
         fill={true}
         alt="image"
         className="object-cover"

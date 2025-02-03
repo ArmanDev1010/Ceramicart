@@ -11,7 +11,7 @@ export default function index() {
 
   return (
     <div
-      className={`${styles.header} bg-[#f4f0ea] fixed w-full p-[10px] _700:p-[20px]`}
+      className={`${styles.header} bg-[#E6E0CC] fixed z-[99999999] w-full p-[10px] _700:p-[20px]`}
     >
       <div className="flex justify-center uppercase text-[12px] font-[400] relative _700:text-[15px]">
         <Link href="/" className="text-none text-black absolute left-0">
