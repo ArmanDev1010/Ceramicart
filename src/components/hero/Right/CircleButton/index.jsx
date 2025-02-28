@@ -8,16 +8,15 @@ export default function CircleButton() {
 
   useEffect(() => {
     const circumference = 2 * Math.PI * 45;
-    // Initial animation when component mounts
     controls.start({
       strokeDashoffset: isHovered ? circumference : 0,
-      transition: { duration: 0.7, ease: "linear" },
+      transition: { duration: 0.5, ease: "linear" },
     });
   }, [controls, isHovered]);
 
   return (
     <div
-      className="relative _1600:w-[232px] _1600:h-[232px] _1280:w-[212px] _1280:h-[212px]"
+      className="relative _1600:w-[232px] _1600:h-[232px] _1280:w-[192px] _1280:h-[192px]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
